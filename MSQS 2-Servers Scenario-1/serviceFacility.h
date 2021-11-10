@@ -1,7 +1,3 @@
-//
-// Created by Farhan Ishmam on 10-Nov-21.
-//
-
 #ifndef MSQS_2_SERVERS_SCENARIO_1_SERVICEFACILITY_H
 #define MSQS_2_SERVERS_SCENARIO_1_SERVICEFACILITY_H
 
