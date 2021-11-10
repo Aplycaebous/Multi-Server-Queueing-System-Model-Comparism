@@ -10,7 +10,7 @@ int main ()
     Scheduler *sch = new Scheduler ();
     sch->initialize ();
 
-    ServiceFacility* serviceFacility = new ServiceFacility (50,10,10);
+    ServiceFacility* serviceFacility = new ServiceFacility (5.0,10.0,10.0);
 
     sch->run ();
 

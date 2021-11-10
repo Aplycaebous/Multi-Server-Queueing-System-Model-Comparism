@@ -83,7 +83,7 @@ Server :: arrivalHandler () {
         queue_->enque(temp);
     }
 
-    if (temp->id_ < 100) {
+    if (temp->id_ < 1000) {
         //double t = exponential (arrivalMean_);
         //trace_ << "\tinterarrival time = " << t << endl;
         //a_.activate (t);
