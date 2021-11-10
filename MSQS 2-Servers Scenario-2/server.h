@@ -1,7 +1,3 @@
-//
-// Created by Farhan Ishmam on 10-Nov-21.
-//
-
 #ifndef MSQS_2_SERVERS_SCENARIO_2_SERVER_H
 #define MSQS_2_SERVERS_SCENARIO_2_SERVER_H
 
@@ -13,18 +9,14 @@
 #include <math.h>
 #include <iostream>
 #include <fstream>
-//#include "serviceFacility.h"
-
 using namespace std;
 
 class Server
 {
 public:
 
-    Server (int id);
+    Server ();
     void initialize ();
-    void startArrival();
-
     void arrivalHandler ();
     void departureHandler ();
     void createTraceFile ();
@@ -32,20 +24,12 @@ public:
     void updateStat();
     void report();
 
-    static double exponential (double mean);
-
-    void getArrival();
-    void arrivalSwitch();
-    void setNext(Server* s);
-
-    inline int& status (){
-        return (status_);
+    inline int& status1 (){
+        return (status1_);
     }
-
-    inline int& queueSize (){
-        return (queue_->length());
+    inline int& status2 (){
+        return (status2_);
     }
-
     inline int& itemArrived (){
         return (itemArrived_);
     }
@@ -75,21 +59,19 @@ public:
     }
 
 private:
-    int serverId;
     Queue* queue_;
     ArrivalEvent a_;
     DepartureEvent d_;
-    Server* nextServer;
 
-
-    int status_; // 1 means busy, 0 means idle
+    int status1_; //server 1 status, 1 means busy, 0 means idle
+    int status2_; //server 2 status
     int itemArrived_; // count of already arrived events
     Item* itemInService_; // holds reference to the current item (event) in service
     ofstream trace_; // used for writing to the trace file
 
     double arrivalMean_; // mean time for arrival events
     double departureMean_; // mean time for departure events
-
+    double exponential (double mean);
 
     //Variables for Time Average
     double timeLastEvent;

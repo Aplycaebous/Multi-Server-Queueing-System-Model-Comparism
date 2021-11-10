@@ -6,57 +6,23 @@
 
 #IncludeRegexTransform: 
 
-D:/Projects - GitHub/Multi-Server Queueing System Model Comparism/MSQS 2-Servers Scenario-2/event.cpp
-event.h
-D:/Projects - GitHub/Multi-Server Queueing System Model Comparism/MSQS 2-Servers Scenario-2/event.h
-server.h
-D:/Projects - GitHub/Multi-Server Queueing System Model Comparism/MSQS 2-Servers Scenario-2/server.h
-scheduler.h
-D:/Projects - GitHub/Multi-Server Queueing System Model Comparism/MSQS 2-Servers Scenario-2/scheduler.h
-
 D:/Projects - GitHub/Multi-Server Queueing System Model Comparism/MSQS 2-Servers Scenario-2/event.h
 
 D:/Projects - GitHub/Multi-Server Queueing System Model Comparism/MSQS 2-Servers Scenario-2/main.cpp
 iostream
 -
+fstream
+-
 scheduler.h
 D:/Projects - GitHub/Multi-Server Queueing System Model Comparism/MSQS 2-Servers Scenario-2/scheduler.h
 server.h
 D:/Projects - GitHub/Multi-Server Queueing System Model Comparism/MSQS 2-Servers Scenario-2/server.h
-serviceFacility.h
-D:/Projects - GitHub/Multi-Server Queueing System Model Comparism/MSQS 2-Servers Scenario-2/serviceFacility.h
-
-D:/Projects - GitHub/Multi-Server Queueing System Model Comparism/MSQS 2-Servers Scenario-2/queue.cpp
-queue.h
-D:/Projects - GitHub/Multi-Server Queueing System Model Comparism/MSQS 2-Servers Scenario-2/queue.h
 
 D:/Projects - GitHub/Multi-Server Queueing System Model Comparism/MSQS 2-Servers Scenario-2/queue.h
-
-D:/Projects - GitHub/Multi-Server Queueing System Model Comparism/MSQS 2-Servers Scenario-2/scheduler.cpp
-scheduler.h
-D:/Projects - GitHub/Multi-Server Queueing System Model Comparism/MSQS 2-Servers Scenario-2/scheduler.h
-event.h
-D:/Projects - GitHub/Multi-Server Queueing System Model Comparism/MSQS 2-Servers Scenario-2/event.h
-iostream
--
-fstream
--
 
 D:/Projects - GitHub/Multi-Server Queueing System Model Comparism/MSQS 2-Servers Scenario-2/scheduler.h
 event.h
 D:/Projects - GitHub/Multi-Server Queueing System Model Comparism/MSQS 2-Servers Scenario-2/event.h
-
-D:/Projects - GitHub/Multi-Server Queueing System Model Comparism/MSQS 2-Servers Scenario-2/server.cpp
-server.h
-D:/Projects - GitHub/Multi-Server Queueing System Model Comparism/MSQS 2-Servers Scenario-2/server.h
-scheduler.h
-D:/Projects - GitHub/Multi-Server Queueing System Model Comparism/MSQS 2-Servers Scenario-2/scheduler.h
-malloc.h
--
-iostream
--
-fstream
--
 
 D:/Projects - GitHub/Multi-Server Queueing System Model Comparism/MSQS 2-Servers Scenario-2/server.h
 event.h
@@ -69,12 +35,4 @@ iostream
 -
 fstream
 -
-
-D:/Projects - GitHub/Multi-Server Queueing System Model Comparism/MSQS 2-Servers Scenario-2/serviceFacility.cpp
-serviceFacility.h
-D:/Projects - GitHub/Multi-Server Queueing System Model Comparism/MSQS 2-Servers Scenario-2/serviceFacility.h
-
-D:/Projects - GitHub/Multi-Server Queueing System Model Comparism/MSQS 2-Servers Scenario-2/serviceFacility.h
-server.h
-D:/Projects - GitHub/Multi-Server Queueing System Model Comparism/MSQS 2-Servers Scenario-2/server.h
 

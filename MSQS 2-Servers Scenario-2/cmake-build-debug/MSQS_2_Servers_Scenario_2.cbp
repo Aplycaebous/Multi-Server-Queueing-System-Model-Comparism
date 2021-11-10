@@ -107,12 +107,6 @@
 		<Unit filename="D:/Projects - GitHub/Multi-Server Queueing System Model Comparism/MSQS 2-Servers Scenario-2/server.h">
 			<Option target="MSQS_2_Servers_Scenario_2"/>
 		</Unit>
-		<Unit filename="D:/Projects - GitHub/Multi-Server Queueing System Model Comparism/MSQS 2-Servers Scenario-2/serviceFacility.cpp">
-			<Option target="MSQS_2_Servers_Scenario_2"/>
-		</Unit>
-		<Unit filename="D:/Projects - GitHub/Multi-Server Queueing System Model Comparism/MSQS 2-Servers Scenario-2/serviceFacility.h">
-			<Option target="MSQS_2_Servers_Scenario_2"/>
-		</Unit>
 		<Unit filename="D:/Projects - GitHub/Multi-Server Queueing System Model Comparism/MSQS 2-Servers Scenario-2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

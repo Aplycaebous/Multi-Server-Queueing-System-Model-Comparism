@@ -1,7 +1,3 @@
-//
-// Created by Farhan Ishmam on 10-Nov-21.
-//
-
 #include "event.h"
 #include "server.h"
 #include "scheduler.h"
@@ -32,3 +28,4 @@ DepartureEvent :: handle () {
     server->updateStat();
     server->departureHandler ();
 }
+

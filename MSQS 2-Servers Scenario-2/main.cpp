@@ -1,20 +1,22 @@
 #include <iostream>
+#include <fstream>
 using namespace std;
 
 #include "scheduler.h"
 #include "server.h"
-#include "serviceFacility.h"
 
 int main ()
 {
     Scheduler *sch = new Scheduler ();
     sch->initialize ();
 
-    ServiceFacility* serviceFacility = new ServiceFacility (5.0,10.0,10.0);
+    Server* s = new Server();
+    s->createTraceFile ();
 
+    s->arrivalMean () = 9.0;
+    s->departureMean () = 10.0;
+    s->initialize ();
     sch->run ();
-
-    serviceFacility->generateReport();
-
+    s->report();
     return 0;
 }

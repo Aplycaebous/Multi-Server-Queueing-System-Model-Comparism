@@ -276,33 +276,6 @@ server.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MSQS_2_Servers_Scenario_2.dir\build.make CMakeFiles/MSQS_2_Servers_Scenario_2.dir/server.cpp.s
 .PHONY : server.cpp.s
 
-serviceFacility.obj: serviceFacility.cpp.obj
-
-.PHONY : serviceFacility.obj
-
-# target to build an object file
-serviceFacility.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MSQS_2_Servers_Scenario_2.dir\build.make CMakeFiles/MSQS_2_Servers_Scenario_2.dir/serviceFacility.cpp.obj
-.PHONY : serviceFacility.cpp.obj
-
-serviceFacility.i: serviceFacility.cpp.i
-
-.PHONY : serviceFacility.i
-
-# target to preprocess a source file
-serviceFacility.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MSQS_2_Servers_Scenario_2.dir\build.make CMakeFiles/MSQS_2_Servers_Scenario_2.dir/serviceFacility.cpp.i
-.PHONY : serviceFacility.cpp.i
-
-serviceFacility.s: serviceFacility.cpp.s
-
-.PHONY : serviceFacility.s
-
-# target to generate assembly for a file
-serviceFacility.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\MSQS_2_Servers_Scenario_2.dir\build.make CMakeFiles/MSQS_2_Servers_Scenario_2.dir/serviceFacility.cpp.s
-.PHONY : serviceFacility.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -327,9 +300,6 @@ help:
 	@echo ... server.obj
 	@echo ... server.i
 	@echo ... server.s
-	@echo ... serviceFacility.obj
-	@echo ... serviceFacility.i
-	@echo ... serviceFacility.s
 .PHONY : help
 
 

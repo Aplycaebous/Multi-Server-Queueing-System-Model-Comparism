@@ -12,7 +12,6 @@ CMakeFiles/MSQS_2_Servers_Scenario_2.dir/main.cpp.obj: ../main.cpp
 CMakeFiles/MSQS_2_Servers_Scenario_2.dir/main.cpp.obj: ../queue.h
 CMakeFiles/MSQS_2_Servers_Scenario_2.dir/main.cpp.obj: ../scheduler.h
 CMakeFiles/MSQS_2_Servers_Scenario_2.dir/main.cpp.obj: ../server.h
-CMakeFiles/MSQS_2_Servers_Scenario_2.dir/main.cpp.obj: ../serviceFacility.h
 
 CMakeFiles/MSQS_2_Servers_Scenario_2.dir/queue.cpp.obj: ../queue.cpp
 CMakeFiles/MSQS_2_Servers_Scenario_2.dir/queue.cpp.obj: ../queue.h
@@ -26,10 +25,4 @@ CMakeFiles/MSQS_2_Servers_Scenario_2.dir/server.cpp.obj: ../queue.h
 CMakeFiles/MSQS_2_Servers_Scenario_2.dir/server.cpp.obj: ../scheduler.h
 CMakeFiles/MSQS_2_Servers_Scenario_2.dir/server.cpp.obj: ../server.cpp
 CMakeFiles/MSQS_2_Servers_Scenario_2.dir/server.cpp.obj: ../server.h
-
-CMakeFiles/MSQS_2_Servers_Scenario_2.dir/serviceFacility.cpp.obj: ../event.h
-CMakeFiles/MSQS_2_Servers_Scenario_2.dir/serviceFacility.cpp.obj: ../queue.h
-CMakeFiles/MSQS_2_Servers_Scenario_2.dir/serviceFacility.cpp.obj: ../server.h
-CMakeFiles/MSQS_2_Servers_Scenario_2.dir/serviceFacility.cpp.obj: ../serviceFacility.cpp
-CMakeFiles/MSQS_2_Servers_Scenario_2.dir/serviceFacility.cpp.obj: ../serviceFacility.h
 
