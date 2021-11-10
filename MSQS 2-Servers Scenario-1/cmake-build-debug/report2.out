@@ -1,7 +1,7 @@
 Report of the simulation
-Traffic Intensity: 0.9
-Average Number of Customers in the Queue : 0.201721
-Average Server Utilization: 0.427252
-Average Number of Customers in the System: 0.628973
-Average Queueing Delay: 0.0457361
-Average System Delay: 0.142607
+Traffic Intensity: 2
+Average Number of Customers in the Queue : 13.9964
+Average Server Utilization: 0.974872
+Average Number of Customers in the System: 14.9713
+Average Queueing Delay: 1.45953
+Average System Delay: 1.56119
